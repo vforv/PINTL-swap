@@ -1,0 +1,38 @@
+{
+  "name": "token-swap-chat",
+  "version": "1.0.0",
+  "description": "Token Swap Chat Component",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "server": "node dist"
+  },
+  "keywords": [
+    "web-components",
+    "crypto",
+    "swap"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.5",
+    "ddos": "^0.2.1",
+    "express": "^4.21.1",
+    "helmet": "^8.0.0",
+    "hpp": "^0.2.3"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.3",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
